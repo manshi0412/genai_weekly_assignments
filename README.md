@@ -1,4 +1,3 @@
-GEN AI PROJECT 
 This repository contains the hands-on project that is required during the training of GEN AI.
 It includes a basic chatbot and RAG system built using Python.
 The goal of this project is to understand how LLM works and how external data can be used to improve responses.
