@@ -19,11 +19,18 @@ NEWS QA BOT
 Fetches latest news from BBC using RSS Feed
 extracts title and summary of articles
 Stores them as text data
-Uses LLM +RAG to answer questions based on news
+Uses LLM + RAG to answer questions based on news
+
+AI TEST CASE GENERATOR
+Accepts plain‑English business requirements
+Uses ReAct (Reason + Act) prompting to analyze scenarios
+Generates structured test cases (positive, negative, edge cases)
+Applies jailbreak defense to block malicious prompts
+Performs PII redaction on inputs and outputs to protect sensitive data
 
 TECH STACK
-Python
+Python(3.12.15)
 Langchain
 llama
-openAI 
+openAI LLM
 Google colab
